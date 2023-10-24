@@ -26,9 +26,13 @@ section{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     border-top: 0.05rem solid hsl(130, 80%, 22%);
     border-bottom: 0.05rem solid hsl(130, 80%, 22%);
-    padding: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 footer{
@@ -73,4 +77,9 @@ footer{
     padding-top: 0.1rem;
     padding-bottom: 0.05rem;
     border-bottom: 0.2rem solid hsl(130, 80%, 22%);
+}
+
+.restricoes {
+    height: 40px;
+    width: 40px;
 }
