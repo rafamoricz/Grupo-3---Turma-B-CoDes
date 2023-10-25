@@ -90,3 +90,8 @@ footer{
 .imagem-botao-redondo{
     border-radius: 100%;
 }
+
+.airfryer {
+    width: 200px;
+    height: 200px;
+}
