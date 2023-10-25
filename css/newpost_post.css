@@ -25,14 +25,10 @@ section{
     position: relative;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: start;
     border-top: 0.05rem solid hsl(130, 80%, 22%);
     border-bottom: 0.05rem solid hsl(130, 80%, 22%);
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 4.2rem;
 }
 
 footer{
@@ -50,40 +46,29 @@ a{
 }
 
 
-
 .subtitulo{
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 0.1rem;
-    padding-bottom: 0.05rem;
+    justify-content: start;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
-.botao-join{
-    border: 0.05rem  solid hsl(130, 80%, 22%);
-    margin: 2rem;
-}
-
-
-.post{
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: space-between;
-    align-items: baseline;
-}
-
-.icone{
-    display: flex;
-    position: relative;
+.botao_post{
     flex-direction: row;
-    justify-content: space-between;
+    border: 0rem  solid hsl(130, 80%, 22%);
     align-items: center;
-    padding-top: 0.1rem;
-    padding-bottom: 0.05rem;
-    border-bottom: 0.2rem solid hsl(130, 80%, 22%);
+    justify-content:space-around;
 }
-
-.restricoes {
-    height: 40px;
-    width: 40px;
+.camera{
+    flex-direction: row;
+    border: 0rem;
+    border-bottom:0.1rem solid hsl(130, 80%, 22%);
+    justify-content: space-around;
+}
+.post{
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;   
+    border-bottom: 0rem;
 }

@@ -25,18 +25,16 @@ section{
     position: relative;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    align-items: start;
     border-top: 0.05rem solid hsl(130, 80%, 22%);
     border-bottom: 0.05rem solid hsl(130, 80%, 22%);
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding: 3.5rem;
     padding-left: 1rem;
-    padding-right: 1rem;
 }
 
 footer{
     display: flex;
+    position: static;
     flex-direction: row;
     justify-content: space-between;
     align-items: end;
@@ -50,26 +48,29 @@ a{
 }
 
 
-
 .subtitulo{
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 0.1rem;
+    justify-content: space-evenly;
+    padding: 0.01rem;
     padding-bottom: 0.05rem;
+    border-bottom: 0.2rem solid hsl(130, 80%, 22%);
 }
-
-.botao-join{
-    border: 0.05rem  solid hsl(130, 80%, 22%);
+.esse{
+    border-top: 0rem;
+    padding: 0rem;
     margin: 2rem;
 }
-
+.esse1{
+    border-top: 0rem;
+    padding: 0rem;
+}
 
 .post{
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     align-content: space-between;
-    align-items: baseline;
+    align-items: start;
 }
 
 .icone{
@@ -83,7 +84,19 @@ a{
     border-bottom: 0.2rem solid hsl(130, 80%, 22%);
 }
 
-.restricoes {
-    height: 40px;
-    width: 40px;
+
+.botao-mais{
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    
+}
+
+.imagem-botao-redondo{
+    border-radius: 100%;
+}
+
+.airfryer {
+    width: 50%;
+    height: 50%;
 }

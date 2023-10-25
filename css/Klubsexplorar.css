@@ -28,7 +28,7 @@
         align-items: center;
         border-top: 0.05rem solid hsl(130, 80%, 22%);
         border-bottom: 0.05rem solid hsl(130, 80%, 22%);
-        padding:2.5rem;
+        padding:3.5rem;
         padding-left: 1rem;
     }
 
@@ -39,6 +39,11 @@
         align-items: end;
         border-top: 0.1rem hsl(130, 80%, 22%);
         padding: 0.5rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
     }
 
 

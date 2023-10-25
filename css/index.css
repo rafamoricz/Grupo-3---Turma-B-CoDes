@@ -43,6 +43,10 @@ footer{
 }
 
 
+a{
+    text-decoration: none;
+    color: black;
+}
 .subtitulo{
     flex-direction: row;
     align-items: center;
