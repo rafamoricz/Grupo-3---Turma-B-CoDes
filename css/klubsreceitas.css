@@ -47,7 +47,7 @@ footer {
     padding: 0.5rem;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -62,7 +62,7 @@ a{
     border-bottom: 0.2rem solid hsl(130, 80%, 22%);
 }
 
-.column{
+.column {
     flex-direction: column;
 }
 
